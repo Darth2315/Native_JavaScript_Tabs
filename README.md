@@ -13,6 +13,8 @@ let tabButton = document.querySelectorAll('.nav-link'),
     tabHeader = document.querySelector('.card-header'),
     tabContent = document.querySelectorAll('.card-body');
 ```
+![Иллюстрация к проекту](https://github.com/Darth2315/Native_JavaScript_Tabs/blob/master/img_1.JPG)
+
 2. Создаем функцию скрытия контента всех табов, кроме первого, так как изначально он открыт, и скрывать его контент нам не нужно. Для этого в функции используем атрибут `(a)`, а затем вызываем функцию, подставляя вместо `(a)` - `(1)`. Если мы начнем с 0, то контент        всех табов включая первый будет скрыт.
 
 > ***Важно!*** В вашем css файле должны быть прописаны классы:
