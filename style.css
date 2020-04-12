@@ -1,0 +1,16 @@
+.card {
+   margin-top:50px;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.card-body {
+    margin: 20px 0 20px 0;
+    text-align: left;
+}
